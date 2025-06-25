@@ -203,5 +203,5 @@ A Use Case Diagram is a visual representation of the interactions between users 
    
 - Each use case can be translated into test scenarios, helping QA teams ensure every user function is covered.
 
-![alx-booking-uc](https://github.com/user-attachments/assets/0fbc6f8d-a9df-40e6-ac90-8037182c9cf5)
+
 
