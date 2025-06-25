@@ -81,7 +81,7 @@ Functional requirements describe what the system should do—the specific featur
 
 - Users must be able to create an account using email or social media.
 
-- System must verify the user's email before activating the account.
+- The system must verify the user's email before activating the account.
 
 2. **Property Search and Filter:**
 
@@ -114,7 +114,7 @@ Functional requirements describe what the system should do—the specific featur
 
 #### Non-Functional Requirements
 
-Non-functional requirements describe how the system should perform, rather than specific behaviors. They address key quality attributes such as performance, usability, security, and scalability.
+Non-functional requirements describe how the system should perform, rather than specific behaviors. They address key quality attributes, including performance, usability, security, and scalability.
 
 **Examples for the Booking Management Project:**
 
@@ -151,3 +151,57 @@ Non-functional requirements describe how the system should perform, rather than 
 6. **Compliance:**
 
 - The system must comply with data protection laws, such as GDPR (for EU users) and NDPR (for Nigerian users).
+
+
+### Use Case Diagrams.
+
+A Use Case Diagram is a visual representation of the interactions between users (actors) and a system. It illustrates the various ways users can interact with the system to achieve specific goals, referred to as use cases. These diagrams are a key component of the Unified Modeling Language (UML) and are used during the requirements analysis phase of software development. In simple terms, a use case diagram answers the question: **"Who will use the system and what can they do with it?"**
+
+**Key Components of a Use Case Diagram:**
+
+**Actors:** Represent users or external systems that interact with the application (e.g., Guest, Host, Admin).
+
+**Use Cases:** Specific tasks the system performs for the actor (e.g., Make Booking, Cancel Reservation).
+
+**System Boundary:** A box that defines what is inside the system and what is external.
+
+**Relationships:**
+
+- Association (line between actor and use case)
+
+- Include (common behavior reused across use cases)
+
+- Extend (optional behavior triggered under certain conditions)
+
+**Benefits of Use Case Diagrams:**
+
+1. **Clarity for All Stakeholders:**
+   
+- Use case diagrams are easy to understand, even for non-technical stakeholders.
+
+- They provide a high-level overview of how users interact with the system.
+
+2. **Helps in Requirement Gathering:**
+   
+- Helps analysts identify and organize functional requirements by visualizing user actions.
+
+- Encourages discussion with users about system functionality.
+
+3. **Supports System Design:**
+   
+- Acts as a foundation for more detailed modeling, such as activity or sequence diagrams.
+
+- Helps developers understand what features need to be built and how users will use them.
+
+4. **Detects Missing or Overlapping Functionality:**
+   
+- Reveals gaps or redundancies in user interaction or system behavior.
+
+- Helps prioritize features by showing core vs. optional functionality.
+
+5. **Facilitates Test Case Design:**
+   
+- Each use case can be translated into test scenarios, helping QA teams ensure every user function is covered.
+
+![alx-booking-uc](https://github.com/user-attachments/assets/0fbc6f8d-a9df-40e6-ac90-8037182c9cf5)
+
