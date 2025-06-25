@@ -67,3 +67,87 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 - Helps confirm that the requirements are realistic and achievable within budget and time constraints.
 
 - Validated requirements reduce risk by ensuring alignment before moving to design or development.
+
+
+### Types of Requirements
+
+#### Functional Requirements:
+
+Functional requirements describe what the system should do—the specific features, behaviors, and functions the system must perform.
+
+**Examples for the Booking Management Project:**
+
+1. **User Registration and Login:**
+
+- Users must be able to create an account using email or social media.
+
+- System must verify the user's email before activating the account.
+
+2. **Property Search and Filter:**
+
+- Users must be able to search for properties by location, price range, date, number of guests, and other criteria.
+
+- The system should allow users to filter by amenities like Wi-Fi, pool, or pet-friendly.
+
+3. **Booking Creation:**
+
+- Registered users must be able to book available properties for specific dates.
+
+- The system should update the property's availability calendar after a successful booking.
+
+4. **Booking Cancellation:**
+
+- Users must be able to cancel bookings within the host's cancellation policy timeframe.
+
+- Hosts must be notified immediately after a cancellation.
+
+5. **Host Management Panel:**
+
+- Hosts must be able to list new properties, upload images, set prices, and manage availability.
+
+6. **Payment Integration:**
+
+- The system must process payments via credit card, PayPal, or mobile money (e.g., Flutterwave for Nigeria).
+
+- Payment must be split between Airbnb and the host per transaction.
+
+
+#### Non-Functional Requirements
+
+Non-functional requirements describe how the system should perform, rather than specific behaviors. They address key quality attributes such as performance, usability, security, and scalability.
+
+**Examples for the Booking Management Project:**
+
+1. **Performance:**
+
+- The system should load search results in under 3 seconds.
+
+- Payment processing should not exceed 5 seconds per transaction.
+
+2. **Scalability:**
+
+- The system must support 100,000+ concurrent users without performance degradation.
+
+- It should handle property listings from hosts across multiple countries.
+
+3. **Security:**
+
+- User data (e.g., passwords, payment details) must be encrypted using industry-standard protocols.
+
+- The system must support secure login (e.g., two-factor authentication).
+
+4. **Availability:**
+
+- The system should have 99.9% uptime, especially during peak travel seasons.
+
+- Failover mechanisms must be in place to handle server crashes.
+
+5. **Usability:**
+
+- The user interface must be intuitive and responsive to mobile devices.
+
+- Booking steps should be completed in under 5 clicks or taps.
+
+6. **Compliance:**
+
+- The system must comply with data protection laws, such as GDPR (for EU users) and NDPR (for Nigerian users).
