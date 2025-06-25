@@ -205,3 +205,88 @@ A Use Case Diagram is a visual representation of the interactions between users 
 
 ![Use Case Diagram](./alx-booking-uc.png)
 
+
+### Acceptance Criteria
+
+Acceptance Criteria are specific conditions that a product or feature must meet to be considered complete and acceptable by stakeholders. They serve as a bridge between requirements and testing, clearly defining what "done" means for each functionality.
+
+**Here’s why they are essential in Requirement Analysis:**
+
+1. **Clarifies Expectations:**
+   
+- Acceptance criteria remove ambiguity by defining exactly what is expected from a feature or requirement.
+
+- They help stakeholders, developers, and testers stay aligned on the outcome.
+
+2. **Serves as a Basis for Testing:**
+   
+- Each acceptance criterion becomes a test scenario.
+
+- QA teams use them to verify whether a feature meets the agreed-upon conditions.
+
+3. **Prevents Scope Creep:**
+   
+- By clearly stating what must (and must not) be included, acceptance criteria help control feature boundaries.
+
+- This reduces the chance of unnecessary additions during development.
+
+4. **Improves Communication Between Teams:**
+   
+- Developers, business analysts, and product owners all use the same set of criteria to guide development.
+
+- This shared understanding minimizes misinterpretation of requirements.
+
+5. **Enables Faster Sign-off:**
+   
+- Since the criteria define what makes a feature acceptable, product owners can quickly approve completed features if they meet the checklist.
+
+- This streamlines the development process and promotes agile delivery.
+
+6. **Encourages User-Centered Thinking:**
+   
+- Good acceptance criteria focus on user outcomes, rather than just system behavior.
+
+- This helps ensure the product meets real-world needs, not just technical specifications.
+
+
+### Feature: Checkout Process
+
+**User Story (for context):**
+
+As a guest, I want to securely complete a booking and make a payment so that I can confirm my stay at a chosen property.
+
+**Acceptance Criteria:**
+
+1. The user must be logged in to proceed to checkout.
+
+- If not logged in, the system should redirect the user to the login page.
+
+2. The checkout page displays a summary of the selected booking.
+
+- Includes property name, location, price per night, total nights, service fees, and total amount.
+
+3. The user can choose a payment method.
+
+- Options include credit/debit card, PayPal, or a local payment gateway (e.g., Flutterwave for Nigerian users).
+
+4. Billing and contact information must be provided and validated.
+
+- Fields include full name, email address, phone number, and billing address.
+
+5. The system must validate availability before completing the transaction.
+
+- If the dates are no longer available, the user is informed, and the process is halted.
+
+6. Payment must be processed securely and return a success/failure response.
+
+- In the event of payment failure, the user is displayed an error message and given the opportunity to retry.
+
+- On success, a booking confirmation is generated.
+
+7. A booking confirmation email must be sent upon successful payment.
+
+- Includes property details, booking ID, amount paid, and host contact information.
+
+8. The user is redirected to a booking confirmation page after a successful checkout.
+
+9. The host is notified of the new booking via email or in-app notification.
