@@ -16,3 +16,54 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 2. **Reduces Costly Errors and Rework:** Fixing a requirement-related error during or after development is far more expensive than correcting it early in the process. Through proper analysis, potential issues, ambiguities, and unrealistic goals are identified before coding begins. This early problem-solving saves time, budget, and effort by reducing the chances of scope creep and late-stage changes.
 
 3. **Provides a Solid Foundation for Design, Development, and Testing:** Requirement Analysis acts as the blueprint for the rest of the SDLC. It informs software architecture, guides developers on what to build, and helps testers know what to verify. Without this foundation, it’s nearly impossible to track progress, measure success, or deliver a product that meets users’ needs.
+
+
+### Key Activities in Requirement Analysis.
+
+1. **Requirement Gathering:**
+   
+- Focuses on collecting information from stakeholders (clients, users, subject matter experts) about what they expect the system to do.
+
+- Involves reviewing existing documentation, conducting surveys, or checking current systems (if any).
+
+- The goal is to gather all potential requirements, even if they are vague or incomplete at this stage.
+
+2. **Requirement Elicitation:**
+   
+- This is a more structured and interactive process than simple gathering.
+
+- Techniques include interviews, workshops, brainstorming sessions, use-case analysis, and observations.
+
+- The objective is to identify specific, relevant, and previously unmentioned needs that stakeholders might not mention unless prompted.
+
+- Helps uncover non-obvious or conflicting requirements.
+
+3. **Requirement Documentation:**
+   
+- Involves organizing and recording all gathered and elicited requirements in a clear and accessible format.
+
+- The most common output is a Software Requirements Specification (SRS) document.
+
+- Good documentation uses diagrams, tables, and explicit language to ensure that both technical and non-technical stakeholders can understand.
+
+- Serves as a reference point throughout the development cycle.
+
+4. **Requirement Analysis and Modeling:**
+   
+- This step involves refining and breaking down requirements to understand their feasibility, dependencies, and priorities.
+
+- It often includes modeling techniques like flowcharts, data flow diagrams (DFDs), UML diagrams, and use cases.
+
+- Helps detect redundant, ambiguous, or conflicting requirements.
+
+- Supports better design decisions by visualizing the system’s behavior.
+
+5. **Requirement Validation:**
+   
+- Ensures that documented requirements accurately represent stakeholder needs and are clear, complete, and testable.
+
+- Activities include peer reviews, walkthroughs, and formal inspections.
+
+- Helps confirm that the requirements are realistic and achievable within budget and time constraints.
+
+- Validated requirements reduce risk by ensuring alignment before moving to design or development.
