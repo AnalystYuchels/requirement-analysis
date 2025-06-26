@@ -1,6 +1,6 @@
 # What is Requirement Analysis?
 
-Requirement Analysis is a foundational phase in the Software Development Lifecycle (SDLC) where developers, business analysts, and stakeholders collaborate to identify, gather, and document the needs and expectations for a new or modified software system. _**This phase serves as the blueprint for all subsequent stages of development and plays a crucial role in ensuring that the final product effectively meets user demands**_.
+Requirement Analysis is a foundational phase in the Software Development Lifecycle (SDLC) where developers, business analysts, and stakeholders collaborate to identify, gather, and document the needs and expectations for a new or modified software system. _**This phase serves as the blueprint for all subsequent stages of development and plays a crucial role in ensuring that the final product effectively meets user demands.**_
 
 The process typically begins with elicitation, where information is collected through interviews, questionnaires, workshops, observations, and document reviews. This is followed by analysis and classification of the requirements into categories such as functional (what the system should do), non-functional (how the system should perform), and technical requirements. Validation and verification then ensure that the requirements are realistic, unambiguous, and aligned with business goals. Finally, documentation is prepared—often in the form of Software Requirement Specifications (SRS)—to guide developers and testers.
 
@@ -9,18 +9,18 @@ Requirement Analysis is crucial for several reasons. Firstly, it minimizes the r
 In essence, skipping or rushing through Requirement Analysis can jeopardize the entire project. A thorough and well-executed requirements analysis phase sets the stage for building a reliable, user-centric, and successful software product.
 
 
-### Why is Requirement Analysis Important?
+# Why is Requirement Analysis Important?
 
-1. **Prevents Miscommunication and Misalignment:** Requirement Analysis ensures that all stakeholders—clients, developers, designers, and testers—have a shared understanding of what the software is intended to do. Without this clarity, teams may work with different assumptions, leading to inconsistent features, rework, and dissatisfaction. By documenting clear, agreed-upon requirements, it aligns expectations from the start.
+1. <ins>**Prevents Miscommunication and Misalignment:**</ins> Requirement Analysis ensures that all stakeholders—clients, developers, designers, and testers—have a shared understanding of what the software is intended to do. Without this clarity, teams may work with different assumptions, leading to inconsistent features, rework, and dissatisfaction. By documenting clear, agreed-upon requirements, it aligns expectations from the start.
 
-2. **Reduces Costly Errors and Rework:** Fixing a requirement-related error during or after development is far more expensive than correcting it early in the process. Through proper analysis, potential issues, ambiguities, and unrealistic goals are identified before coding begins. This early problem-solving saves time, budget, and effort by reducing the chances of scope creep and late-stage changes.
+2. <ins>**Reduces Costly Errors and Rework:**</ins> Fixing a requirement-related error during or after development is far more expensive than correcting it early in the process. Through proper analysis, potential issues, ambiguities, and unrealistic goals are identified before coding begins. This early problem-solving saves time, budget, and effort by reducing the chances of scope creep and late-stage changes.
 
-3. **Provides a Solid Foundation for Design, Development, and Testing:** Requirement Analysis acts as the blueprint for the rest of the SDLC. It informs software architecture, guides developers on what to build, and helps testers know what to verify. Without this foundation, it’s nearly impossible to track progress, measure success, or deliver a product that meets users’ needs.
+3. <ins>**Provides a Solid Foundation for Design, Development, and Testing:**</ins> Requirement Analysis acts as the blueprint for the rest of the SDLC. It informs software architecture, guides developers on what to build, and helps testers know what to verify. Without this foundation, it’s nearly impossible to track progress, measure success, or deliver a product that meets users’ needs.
 
 
-### Key Activities in Requirement Analysis.
+# Key Activities in Requirement Analysis.
 
-1. **Requirement Gathering:**
+1. <ins>**Requirement Gathering:**</ins>
    
 - Focuses on collecting information from stakeholders (clients, users, subject matter experts) about what they expect the system to do.
 
@@ -28,7 +28,7 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 
 - The goal is to gather all potential requirements, even if they are vague or incomplete at this stage.
 
-2. **Requirement Elicitation:**
+2. <ins>**Requirement Elicitation:**</ins>
    
 - This is a more structured and interactive process than simple gathering.
 
@@ -38,7 +38,7 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 
 - Helps uncover non-obvious or conflicting requirements.
 
-3. **Requirement Documentation:**
+3. <ins>**Requirement Documentation:**</ins>
    
 - Involves organizing and recording all gathered and elicited requirements in a clear and accessible format.
 
@@ -48,7 +48,7 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 
 - Serves as a reference point throughout the development cycle.
 
-4. **Requirement Analysis and Modeling:**
+4. <ins>**Requirement Analysis and Modeling:**</ins>
    
 - This step involves refining and breaking down requirements to understand their feasibility, dependencies, and priorities.
 
@@ -58,7 +58,7 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 
 - Supports better design decisions by visualizing the system’s behavior.
 
-5. **Requirement Validation:**
+5. <ins>**Requirement Validation:**</ins>
    
 - Ensures that documented requirements accurately represent stakeholder needs and are clear, complete, and testable.
 
@@ -69,95 +69,95 @@ In essence, skipping or rushing through Requirement Analysis can jeopardize the 
 - Validated requirements reduce risk by ensuring alignment before moving to design or development.
 
 
-### Types of Requirements
+# Types of Requirements
 
-#### Functional Requirements:
+### <ins>Functional Requirements:</ins>
 
 Functional requirements describe what the system should do—the specific features, behaviors, and functions the system must perform.
 
 **Examples for the Booking Management Project:**
 
-1. **User Registration and Login:**
+1. <ins>**User Registration and Login:**</ins>
 
 - Users must be able to create an account using email or social media.
 
 - The system must verify the user's email before activating the account.
 
-2. **Property Search and Filter:**
+2. <ins>**Property Search and Filter:**</ins>
 
 - Users must be able to search for properties by location, price range, date, number of guests, and other criteria.
 
 - The system should allow users to filter by amenities like Wi-Fi, pool, or pet-friendly.
 
-3. **Booking Creation:**
+3. <ins>**Booking Creation:**</ins>
 
 - Registered users must be able to book available properties for specific dates.
 
 - The system should update the property's availability calendar after a successful booking.
 
-4. **Booking Cancellation:**
+4. <ins>**Booking Cancellation:**</ins>
 
 - Users must be able to cancel bookings within the host's cancellation policy timeframe.
 
 - Hosts must be notified immediately after a cancellation.
 
-5. **Host Management Panel:**
+5. <ins>**Host Management Panel:**</ins>
 
 - Hosts must be able to list new properties, upload images, set prices, and manage availability.
 
-6. **Payment Integration:**
+6. <ins>**Payment Integration:**</ins>
 
 - The system must process payments via credit card, PayPal, or mobile money (e.g., Flutterwave for Nigeria).
 
 - Payment must be split between Airbnb and the host per transaction.
 
 
-#### Non-Functional Requirements
+### <ins>Non-Functional Requirements:</ins>
 
 Non-functional requirements describe how the system should perform, rather than specific behaviors. They address key quality attributes, including performance, usability, security, and scalability.
 
 **Examples for the Booking Management Project:**
 
-1. **Performance:**
+1. <ins>**Performance:**</ins>
 
 - The system should load search results in under 3 seconds.
 
 - Payment processing should not exceed 5 seconds per transaction.
 
-2. **Scalability:**
+2. <ins>**Scalability:**</ins>
 
 - The system must support 100,000+ concurrent users without performance degradation.
 
 - It should handle property listings from hosts across multiple countries.
 
-3. **Security:**
+3. <ins>**Security:**</ins>
 
 - User data (e.g., passwords, payment details) must be encrypted using industry-standard protocols.
 
 - The system must support secure login (e.g., two-factor authentication).
 
-4. **Availability:**
+4. <ins>**Availability:**</ins>
 
 - The system should have 99.9% uptime, especially during peak travel seasons.
 
 - Failover mechanisms must be in place to handle server crashes.
 
-5. **Usability:**
+5. <ins>**Usability:**</ins>
 
 - The user interface must be intuitive and responsive to mobile devices.
 
 - Booking steps should be completed in under 5 clicks or taps.
 
-6. **Compliance:**
+6. <ins>**Compliance:**</ins>
 
 - The system must comply with data protection laws, such as GDPR (for EU users) and NDPR (for Nigerian users).
 
 
-### Use Case Diagrams.
+# Use Case Diagrams:
 
 A Use Case Diagram is a visual representation of the interactions between users (actors) and a system. It illustrates the various ways users can interact with the system to achieve specific goals, referred to as use cases. These diagrams are a key component of the Unified Modeling Language (UML) and are used during the requirements analysis phase of software development. In simple terms, a use case diagram answers the question: **"Who will use the system and what can they do with it?"**
 
-**Key Components of a Use Case Diagram:**
+<ins>**Key Components of a Use Case Diagram:**</ins>
 
 **Actors:** Represent users or external systems that interact with the application (e.g., Guest, Host, Admin).
 
@@ -173,7 +173,8 @@ A Use Case Diagram is a visual representation of the interactions between users 
 
 - Extend (optional behavior triggered under certain conditions)
 
-**Benefits of Use Case Diagrams:**
+
+<ins>**Benefits of Use Case Diagrams:**</ins>
 
 1. **Clarity for All Stakeholders:**
    
@@ -206,7 +207,7 @@ A Use Case Diagram is a visual representation of the interactions between users 
 ![Use Case Diagram](./alx-booking-uc.png)
 
 
-### Acceptance Criteria
+# Acceptance Criteria:
 
 Acceptance Criteria are specific conditions that a product or feature must meet to be considered complete and acceptable by stakeholders. They serve as a bridge between requirements and testing, clearly defining what "done" means for each functionality.
 
@@ -249,13 +250,13 @@ Acceptance Criteria are specific conditions that a product or feature must meet 
 - This helps ensure the product meets real-world needs, not just technical specifications.
 
 
-### Feature: Checkout Process
+# Feature: Checkout Process
 
-**User Story (for context):**
+<ins>**User Story (for context):**</ins>
 
 As a guest, I want to securely complete a booking and make a payment so that I can confirm my stay at a chosen property.
 
-**Acceptance Criteria:**
+<ins>**Acceptance Criteria:**</ins>
 
 1. The user must be logged in to proceed to checkout.
 
@@ -277,13 +278,13 @@ As a guest, I want to securely complete a booking and make a payment so that I c
 
 - If the dates are no longer available, the user is informed, and the process is halted.
 
-6. Payment must be processed securely and return a success/failure response.
+6. Payment must be processed securely and return a success or failure response.
 
-- In the event of payment failure, the user is displayed an error message and given the opportunity to retry.
+- In the event of payment failure, the user is displayed an error message and allowed to retry.
 
 - On success, a booking confirmation is generated.
 
-7. A booking confirmation email must be sent upon successful payment.
+7. You will need to send a booking confirmation email once you have made the payment.
 
 - Includes property details, booking ID, amount paid, and host contact information.
 
